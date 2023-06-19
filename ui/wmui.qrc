@@ -1,0 +1,587 @@
+<RCC>
+    <qresource prefix="/wmui">
+        <file alias="main.qml">wmui/main.qml</file>
+        <file alias="common/VerticalDivider.qml">wmui/common/VerticalDivider.qml</file>
+        <file alias="common/HorizontalDivider.qml">wmui/common/HorizontalDivider.qml</file>
+        <file alias="common/SwitchWithLeftLabel.qml">wmui/common/SwitchWithLeftLabel.qml</file>
+        <file alias="common/SimpleTextTitle.qml">wmui/common/SimpleTextTitle.qml</file>
+        <file alias="common/LabelCaption.qml">wmui/common/LabelCaption.qml</file>
+        <file alias="common/LabelBody.qml">wmui/common/LabelBody.qml</file>
+        <file alias="common/LabelBodySecondary.qml">wmui/common/LabelBodySecondary.qml</file>
+        <file alias="common/LabelSubheading.qml">wmui/common/LabelSubheading.qml</file>
+        <file alias="common/LabelTitle.qml">wmui/common/LabelTitle.qml</file>
+        <file alias="common/LabelHeadline.qml">wmui/common/LabelHeadline.qml</file>
+        <file alias="common/LabelDisplay1.qml">wmui/common/LabelDisplay1.qml</file>
+        <file alias="common/LabelDisplay2.qml">wmui/common/LabelDisplay2.qml</file>
+        <file alias="common/LabelDisplay3.qml">wmui/common/LabelDisplay3.qml</file>
+        <file alias="common/LabelDisplay4.qml">wmui/common/LabelDisplay4.qml</file>
+        <file alias="common/FloatingActionButton.qml">wmui/common/FloatingActionButton.qml</file>
+        <file alias="common/FloatingActionMiniButton.qml">wmui/common/FloatingActionMiniButton.qml</file>
+        <file alias="common/IconActive.qml">wmui/common/IconActive.qml</file>
+        <file alias="common/IconInactive.qml">wmui/common/IconInactive.qml</file>
+        <file alias="common/IconColored.qml">wmui/common/IconColored.qml</file>
+        <file alias="pages/PageOne.qml">wmui/pages/PageOne.qml</file>
+        <file alias="pages/PageTwo.qml">wmui/pages/PageTwo.qml</file>
+        <file alias="pages/PageFour.qml">wmui/pages/PageFour.qml</file>
+        <file alias="pages/PageThree.qml">wmui/pages/PageThree.qml</file>
+        <file alias="pages/PageFive.qml">wmui/pages/PageFive.qml</file>
+        <file alias="common/ButtonRaised.qml">wmui/common/ButtonRaised.qml</file>
+        <file alias="common/ButtonFlat.qml">wmui/common/ButtonFlat.qml</file>
+        <file alias="common/StackTextTitle.qml">wmui/common/StackTextTitle.qml</file>
+        <file alias="common/SwipeTextTitle.qml">wmui/common/SwipeTextTitle.qml</file>
+        <file alias="popups/PopupInfo.qml">wmui/popups/PopupInfo.qml</file>
+        <file alias="tabs/TabButtonIcon.qml">wmui/tabs/TabButtonIcon.qml</file>
+        <file alias="tabs/TabButtonTextAndIcon.qml">wmui/tabs/TabButtonTextAndIcon.qml</file>
+        <file alias="common/ButtonIconActive.qml">wmui/common/ButtonIconActive.qml</file>
+        <file alias="navigation/Destination.qml">wmui/navigation/Destination.qml</file>
+        <file alias="navigation/DrawerNavigationButton.qml">wmui/navigation/DrawerNavigationButton.qml</file>
+        <file alias="pages/InitialItemPage.qml">wmui/pages/InitialItemPage.qml</file>
+        <file alias="popups/PopupToast.qml">wmui/popups/PopupToast.qml</file>
+        <file alias="navigation/DrawerNavigationBar.qml">wmui/navigation/DrawerNavigationBar.qml</file>
+        <file alias="pages/HomePage.qml">wmui/pages/HomePage.qml</file>
+        <file alias="navigation/DrawerDivider.qml">wmui/navigation/DrawerDivider.qml</file>
+        <file alias="pages/SettingsPage.qml">wmui/pages/SettingsPage.qml</file>
+        <file alias="pages/ColorSchemaPage.qml">wmui/pages/ColorSchemaPage.qml</file>
+        <file alias="pages/AboutPage.qml">wmui/pages/AboutPage.qml</file>
+        <file alias="navigation/DrawerSubtitle.qml">wmui/navigation/DrawerSubtitle.qml</file>
+        <file alias="navigation/DrawerNavigationTextButton.qml">wmui/navigation/DrawerNavigationTextButton.qml</file>
+        <file alias="navigation/DrawerTitleBar.qml">wmui/navigation/DrawerTitleBar.qml</file>
+        <file alias="navigation/DrawerFavoritesNavigationButton.qml">wmui/navigation/DrawerFavoritesNavigationButton.qml</file>
+        <file alias="navigation/DrawerFavoritesNavigationBar.qml">wmui/navigation/DrawerFavoritesNavigationBar.qml</file>
+        <file alias="navigation/DrawerFavoritesMenuButton.qml">wmui/navigation/DrawerFavoritesMenuButton.qml</file>
+        <file alias="tabs/TextTabBar.qml">wmui/tabs/TextTabBar.qml</file>
+        <file alias="pages/PrimaryColorPage.qml">wmui/pages/PrimaryColorPage.qml</file>
+        <file alias="pages/AccentColorPage.qml">wmui/pages/AccentColorPage.qml</file>
+        <file alias="pages/ThemePage.qml">wmui/pages/ThemePage.qml</file>
+        <file alias="navigation/HomeNavigation.qml">wmui/navigation/HomeNavigation.qml</file>
+        <file alias="pages/QtPage.qml">wmui/pages/QtPage.qml</file>
+        <file alias="accets/images/black/more_vert.png">wmui/accets/images/black/more_vert.png</file>
+        <file alias="accets/images/black/more_vert@2x.png">wmui/accets/images/black/more_vert@2x.png</file>
+        <file alias="accets/images/black/more_vert@3x.png">wmui/accets/images/black/more_vert@3x.png</file>
+        <file alias="accets/images/black/more_vert@4x.png">wmui/accets/images/black/more_vert@4x.png</file>
+        <file alias="accets/images/white/more_vert.png">wmui/accets/images/white/more_vert.png</file>
+        <file alias="accets/images/white/more_vert@2x.png">wmui/accets/images/white/more_vert@2x.png</file>
+        <file alias="accets/images/white/more_vert@3x.png">wmui/accets/images/white/more_vert@3x.png</file>
+        <file alias="accets/images/white/more_vert@4x.png">wmui/accets/images/white/more_vert@4x.png</file>
+        <file alias="accets/images/white/person.png">wmui/accets/images/white/person.png</file>
+        <file alias="accets/images/white/person@2x.png">wmui/accets/images/white/person@2x.png</file>
+        <file alias="accets/images/white/person@3x.png">wmui/accets/images/white/person@3x.png</file>
+        <file alias="accets/images/white/person@4x.png">wmui/accets/images/white/person@4x.png</file>
+        <file alias="accets/images/black/person.png">wmui/accets/images/black/person.png</file>
+        <file alias="accets/images/black/person@2x.png">wmui/accets/images/black/person@2x.png</file>
+        <file>wmui/accets/images/black/person@3x.png</file>
+        <file>wmui/accets/images/black/person@4x.png</file>
+        <file>wmui/accets/images/black/x36/person.png</file>
+        <file>wmui/accets/images/black/x36/person@2x.png</file>
+        <file>wmui/accets/images/black/x36/person@3x.png</file>
+        <file>wmui/accets/images/black/x36/person@4x.png</file>
+        <file>wmui/accets/images/white/x36/person.png</file>
+        <file>wmui/accets/images/white/x36/person@2x.png</file>
+        <file>wmui/accets/images/white/x36/person@3x.png</file>
+        <file>wmui/accets/images/white/x36/person@4x.png</file>
+        <file>wmui/accets/images/black/x18/person.png</file>
+        <file>wmui/accets/images/black/x18/person@2x.png</file>
+        <file>wmui/accets/images/black/x18/person@3x.png</file>
+        <file>wmui/accets/images/black/x18/person@4x.png</file>
+        <file>wmui/accets/images/black/x48/person.png</file>
+        <file>wmui/accets/images/black/x48/person@2x.png</file>
+        <file>wmui/accets/images/black/x48/person@3x.png</file>
+        <file>wmui/accets/images/black/x48/person@4x.png</file>
+        <file>wmui/accets/images/white/x18/person.png</file>
+        <file>wmui/accets/images/white/x18/person@2x.png</file>
+        <file>wmui/accets/images/white/x18/person@3x.png</file>
+        <file>wmui/accets/images/white/x18/person@4x.png</file>
+        <file>wmui/accets/images/white/x48/person.png</file>
+        <file>wmui/accets/images/white/x48/person@2x.png</file>
+        <file>wmui/accets/images/white/x48/person@3x.png</file>
+        <file>wmui/accets/images/white/x48/person@4.png</file>
+        <file alias="accets/images/black/arrow_back.png">wmui/accets/images/black/arrow_back.png</file>
+        <file>wmui/accets/images/black/arrow_back@2x.png</file>
+        <file>wmui/accets/images/black/arrow_back@3x.png</file>
+        <file>wmui/accets/images/black/arrow_back@4x.png</file>
+        <file alias="accets/images/black/directions.png">wmui/accets/images/black/directions.png</file>
+        <file>wmui/accets/images/black/directions@2x.png</file>
+        <file>wmui/accets/images/black/directions@3x.png</file>
+        <file>wmui/accets/images/black/directions@4x.png</file>
+        <file>wmui/accets/images/black/x18/arrow_back.png</file>
+        <file>wmui/accets/images/black/x18/arrow_back@2x.png</file>
+        <file>wmui/accets/images/black/x18/arrow_back@3x.png</file>
+        <file>wmui/accets/images/black/x18/arrow_back@4x.png</file>
+        <file>wmui/accets/images/black/x18/directions.png</file>
+        <file>wmui/accets/images/black/x18/directions@2x.png</file>
+        <file>wmui/accets/images/black/x18/directions@3x.png</file>
+        <file>wmui/accets/images/black/x18/directions@4x.png</file>
+        <file>wmui/accets/images/black/x36/arrow_back.png</file>
+        <file>wmui/accets/images/black/x36/arrow_back@2x.png</file>
+        <file>wmui/accets/images/black/x36/arrow_back@3x.png</file>
+        <file>wmui/accets/images/black/x36/arrow_back@4x.png</file>
+        <file>wmui/accets/images/black/x36/directions.png</file>
+        <file>wmui/accets/images/black/x36/directions@2x.png</file>
+        <file>wmui/accets/images/black/x36/directions@3x.png</file>
+        <file>wmui/accets/images/black/x36/directions@4x.png</file>
+        <file>wmui/accets/images/black/x48/arrow_back.png</file>
+        <file>wmui/accets/images/black/x48/arrow_back@2x.png</file>
+        <file>wmui/accets/images/black/x48/arrow_back@3x.png</file>
+        <file>wmui/accets/images/black/x48/arrow_back@4x.png</file>
+        <file alias="accets/images/black/x48/directions.png">wmui/accets/images/black/x48/directions.png</file>
+        <file>wmui/accets/images/black/x48/directions@2x.png</file>
+        <file>wmui/accets/images/black/x48/directions@3x.png</file>
+        <file>wmui/accets/images/black/x48/directions@4.png</file>
+        <file alias="accets/images/white/arrow_back.png">wmui/accets/images/white/arrow_back.png</file>
+        <file>wmui/accets/images/white/arrow_back@2x.png</file>
+        <file>wmui/accets/images/white/arrow_back@3x.png</file>
+        <file>wmui/accets/images/white/arrow_back@4x.png</file>
+        <file>wmui/accets/images/white/directions.png</file>
+        <file>wmui/accets/images/white/directions@2x.png</file>
+        <file>wmui/accets/images/white/directions@3x.png</file>
+        <file>wmui/accets/images/white/directions@4x.png</file>
+        <file>wmui/accets/images/white/x18/arrow_back.png</file>
+        <file>wmui/accets/images/white/x18/arrow_back@2x.png</file>
+        <file>wmui/accets/images/white/x18/arrow_back@3x.png</file>
+        <file>wmui/accets/images/white/x18/arrow_back@4x.png</file>
+        <file>wmui/accets/images/white/x18/directions.png</file>
+        <file>wmui/accets/images/white/x18/directions@2x.png</file>
+        <file>wmui/accets/images/white/x18/directions@3x.png</file>
+        <file>wmui/accets/images/white/x18/directions@4x.png</file>
+        <file>wmui/accets/images/white/x36/arrow_back.png</file>
+        <file>wmui/accets/images/white/x36/arrow_back@2x.png</file>
+        <file>wmui/accets/images/white/x36/arrow_back@3x.png</file>
+        <file>wmui/accets/images/white/x36/arrow_back@4x.png</file>
+        <file>wmui/accets/images/white/x36/directions.png</file>
+        <file>wmui/accets/images/white/x36/directions@2x.png</file>
+        <file>wmui/accets/images/white/x36/directions@3x.png</file>
+        <file>wmui/accets/images/white/x36/directions@4x.png</file>
+        <file>wmui/accets/images/white/x48/arrow_back.png</file>
+        <file>wmui/accets/images/white/x48/arrow_back@2x.png</file>
+        <file>wmui/accets/images/white/x48/arrow_back@3x.png</file>
+        <file>wmui/accets/images/white/x48/arrow_back@4.png</file>
+        <file>wmui/accets/images/white/x48/directions.png</file>
+        <file>wmui/accets/images/white/x48/directions@2x.png</file>
+        <file>wmui/accets/images/white/x48/directions@3x.png</file>
+        <file>wmui/accets/images/white/x48/directions@4x.png</file>
+        <file alias="accets/images/black/home.png">wmui/accets/images/black/home.png</file>
+        <file>wmui/accets/images/black/home@2x.png</file>
+        <file>wmui/accets/images/black/home@3x.png</file>
+        <file>wmui/accets/images/black/home@4x.png</file>
+        <file>wmui/accets/images/black/x18/home.png</file>
+        <file>wmui/accets/images/black/x18/home@2x.png</file>
+        <file>wmui/accets/images/black/x18/home@3x.png</file>
+        <file>wmui/accets/images/black/x18/home@4x.png</file>
+        <file>wmui/accets/images/black/x36/home.png</file>
+        <file>wmui/accets/images/black/x36/home@2x.png</file>
+        <file>wmui/accets/images/black/x36/home@3x.png</file>
+        <file>wmui/accets/images/black/x36/home@4x.png</file>
+        <file alias="accets/images/black/x48/home.png">wmui/accets/images/black/x48/home.png</file>
+        <file>wmui/accets/images/black/x48/home@2x.png</file>
+        <file>wmui/accets/images/black/x48/home@3x.png</file>
+        <file>wmui/accets/images/black/x48/home@4x.png</file>
+        <file>wmui/accets/images/white/home.png</file>
+        <file>wmui/accets/images/white/home@2x.png</file>
+        <file>wmui/accets/images/white/home@3x.png</file>
+        <file>wmui/accets/images/white/home@4x.png</file>
+        <file>wmui/accets/images/white/x18/home.png</file>
+        <file>wmui/accets/images/white/x18/home@2x.png</file>
+        <file>wmui/accets/images/white/x18/home@3x.png</file>
+        <file>wmui/accets/images/white/x18/home@4x.png</file>
+        <file>wmui/accets/images/white/x36/home.png</file>
+        <file>wmui/accets/images/white/x36/home@2x.png</file>
+        <file>wmui/accets/images/white/x36/home@3x.png</file>
+        <file>wmui/accets/images/white/x36/home@4x.png</file>
+        <file>wmui/accets/images/white/x48/home.png</file>
+        <file>wmui/accets/images/white/x48/home@2x.png</file>
+        <file>wmui/accets/images/white/x48/home@3x.png</file>
+        <file>wmui/accets/images/white/x48/home@4x.png</file>
+        <file alias="accets/images/black/done.png">wmui/accets/images/black/done.png</file>
+        <file>wmui/accets/images/black/done@2x.png</file>
+        <file>wmui/accets/images/black/done@3x.png</file>
+        <file>wmui/accets/images/black/done@4x.png</file>
+        <file>wmui/accets/images/black/x18/done.png</file>
+        <file>wmui/accets/images/black/x18/done@2x.png</file>
+        <file>wmui/accets/images/black/x18/done@3x.png</file>
+        <file>wmui/accets/images/black/x18/done@4x.png</file>
+        <file>wmui/accets/images/black/x36/done.png</file>
+        <file>wmui/accets/images/black/x36/done@2x.png</file>
+        <file>wmui/accets/images/black/x36/done@3x.png</file>
+        <file>wmui/accets/images/black/x36/done@4x.png</file>
+        <file>wmui/accets/images/black/x48/done.png</file>
+        <file>wmui/accets/images/black/x48/done@2x.png</file>
+        <file>wmui/accets/images/black/x48/done@3x.png</file>
+        <file>wmui/accets/images/black/x48/done@4x.png</file>
+        <file alias="accets/images/white/done.png">wmui/accets/images/white/done.png</file>
+        <file>wmui/accets/images/white/done@2x.png</file>
+        <file>wmui/accets/images/white/done@3x.png</file>
+        <file>wmui/accets/images/white/done@4x.png</file>
+        <file>wmui/accets/images/white/x18/done.png</file>
+        <file>wmui/accets/images/white/x18/done@2x.png</file>
+        <file>wmui/accets/images/white/x18/done@3x.png</file>
+        <file>wmui/accets/images/white/x18/done@4x.png</file>
+        <file>wmui/accets/images/white/x36/done.png</file>
+        <file>wmui/accets/images/white/x36/done@2x.png</file>
+        <file>wmui/accets/images/white/x36/done@3x.png</file>
+        <file>wmui/accets/images/white/x36/done@4x.png</file>
+        <file>wmui/accets/images/white/x48/done.png</file>
+        <file>wmui/accets/images/white/x48/done@2x.png</file>
+        <file>wmui/accets/images/white/x48/done@3x.png</file>
+        <file>wmui/accets/images/white/x48/done@4x.png</file>
+        <file alias="accets/images/black/bus.png">wmui/accets/images/black/bus.png</file>
+        <file>wmui/accets/images/black/bus@2x.png</file>
+        <file>wmui/accets/images/black/bus@3x.png</file>
+        <file>wmui/accets/images/black/bus@4x.png</file>
+        <file alias="accets/images/black/car.png">wmui/accets/images/black/car.png</file>
+        <file>wmui/accets/images/black/car@2x.png</file>
+        <file>wmui/accets/images/black/car@3x.png</file>
+        <file>wmui/accets/images/black/car@4x.png</file>
+        <file alias="accets/images/black/flight.png">wmui/accets/images/black/flight.png</file>
+        <file>wmui/accets/images/black/flight@2x.png</file>
+        <file>wmui/accets/images/black/flight@3x.png</file>
+        <file>wmui/accets/images/black/flight@4x.png</file>
+        <file alias="accets/images/black/settings.png">wmui/accets/images/black/settings.png</file>
+        <file>wmui/accets/images/black/settings@2x.png</file>
+        <file>wmui/accets/images/black/settings@3x.png</file>
+        <file>wmui/accets/images/black/settings@4x.png</file>
+        <file alias="accets/images/black/subway.png">wmui/accets/images/black/subway.png</file>
+        <file>wmui/accets/images/black/subway@2x.png</file>
+        <file>wmui/accets/images/black/subway@3x.png</file>
+        <file>wmui/accets/images/black/subway@4x.png</file>
+        <file alias="accets/images/black/truck.png">wmui/accets/images/black/truck.png</file>
+        <file>wmui/accets/images/black/truck@2x.png</file>
+        <file>wmui/accets/images/black/truck@3x.png</file>
+        <file>wmui/accets/images/black/truck@4x.png</file>
+        <file>wmui/accets/images/black/x18/bus.png</file>
+        <file>wmui/accets/images/black/x18/bus@2x.png</file>
+        <file>wmui/accets/images/black/x18/bus@3x.png</file>
+        <file>wmui/accets/images/black/x18/bus@4x.png</file>
+        <file>wmui/accets/images/black/x18/car.png</file>
+        <file>wmui/accets/images/black/x18/car@2x.png</file>
+        <file>wmui/accets/images/black/x18/car@3x.png</file>
+        <file>wmui/accets/images/black/x18/car@4x.png</file>
+        <file>wmui/accets/images/black/x18/flight.png</file>
+        <file>wmui/accets/images/black/x18/flight@2x.png</file>
+        <file>wmui/accets/images/black/x18/flight@3x.png</file>
+        <file>wmui/accets/images/black/x18/flight@4x.png</file>
+        <file>wmui/accets/images/black/x18/settings.png</file>
+        <file>wmui/accets/images/black/x18/settings@2x.png</file>
+        <file>wmui/accets/images/black/x18/settings@3x.png</file>
+        <file>wmui/accets/images/black/x18/settings@4x.png</file>
+        <file>wmui/accets/images/black/x18/subway.png</file>
+        <file>wmui/accets/images/black/x18/subway@2x.png</file>
+        <file>wmui/accets/images/black/x18/subway@3x.png</file>
+        <file>wmui/accets/images/black/x18/subway@4x.png</file>
+        <file>wmui/accets/images/black/x18/truck.png</file>
+        <file>wmui/accets/images/black/x18/truck@2x.png</file>
+        <file>wmui/accets/images/black/x18/truck@3x.png</file>
+        <file>wmui/accets/images/black/x18/truck@4x.png</file>
+        <file>wmui/accets/images/black/x36/bus.png</file>
+        <file>wmui/accets/images/black/x36/bus@2x.png</file>
+        <file>wmui/accets/images/black/x36/bus@3x.png</file>
+        <file>wmui/accets/images/black/x36/bus@4x.png</file>
+        <file>wmui/accets/images/black/x36/car.png</file>
+        <file>wmui/accets/images/black/x36/car@2x.png</file>
+        <file>wmui/accets/images/black/x36/car@3x.png</file>
+        <file>wmui/accets/images/black/x36/car@4x.png</file>
+        <file>wmui/accets/images/black/x36/flight.png</file>
+        <file>wmui/accets/images/black/x36/flight@2x.png</file>
+        <file>wmui/accets/images/black/x36/flight@3x.png</file>
+        <file>wmui/accets/images/black/x36/flight@4x.png</file>
+        <file>wmui/accets/images/black/x36/settings.png</file>
+        <file>wmui/accets/images/black/x36/settings@2x.png</file>
+        <file>wmui/accets/images/black/x36/settings@3x.png</file>
+        <file>wmui/accets/images/black/x36/settings@4x.png</file>
+        <file>wmui/accets/images/black/x36/subway.png</file>
+        <file>wmui/accets/images/black/x36/subway@2x.png</file>
+        <file>wmui/accets/images/black/x36/subway@3x.png</file>
+        <file>wmui/accets/images/black/x36/subway@4x.png</file>
+        <file>wmui/accets/images/black/x36/truck.png</file>
+        <file alias="accets/images/black/x36/truck@2x.png">wmui/accets/images/black/x36/truck@2x.png</file>
+        <file alias="accets/images/black/x36/truck@3x.png">wmui/accets/images/black/x36/truck@3x.png</file>
+        <file alias="accets/images/black/x36/truck@4x.png">wmui/accets/images/black/x36/truck@4x.png</file>
+        <file alias="accets/images/black/x48/bus.png">wmui/accets/images/black/x48/bus.png</file>
+        <file alias="accets/images/black/x48/bus@2x.png">wmui/accets/images/black/x48/bus@2x.png</file>
+        <file alias="accets/images/black/x48/bus@3x.png">wmui/accets/images/black/x48/bus@3x.png</file>
+        <file alias="accets/images/black/x48/bus@4x.png">wmui/accets/images/black/x48/bus@4x.png</file>
+        <file alias="accets/images/black/x48/car.png">wmui/accets/images/black/x48/car.png</file>
+        <file alias="accets/images/black/x48/car@2x.png">wmui/accets/images/black/x48/car@2x.png</file>
+        <file alias="accets/images/black/x48/car@3x.png">wmui/accets/images/black/x48/car@3x.png</file>
+        <file alias="accets/images/black/x48/car@4x.png">wmui/accets/images/black/x48/car@4x.png</file>
+        <file alias="accets/images/black/x48/flight.png">wmui/accets/images/black/x48/flight.png</file>
+        <file alias="accets/images/black/x48/flight@2x.png">wmui/accets/images/black/x48/flight@2x.png</file>
+        <file alias="accets/images/black/x48/flight@3x.png">wmui/accets/images/black/x48/flight@3x.png</file>
+        <file alias="accets/images/black/x48/flight@4x.png">wmui/accets/images/black/x48/flight@4x.png</file>
+        <file alias="accets/images/black/x48/settings.png">wmui/accets/images/black/x48/settings.png</file>
+        <file alias="accets/images/black/x48/settings@2x.png">wmui/accets/images/black/x48/settings@2x.png</file>
+        <file alias="accets/images/black/x48/settings@3x.png">wmui/accets/images/black/x48/settings@3x.png</file>
+        <file alias="accets/images/black/x48/settings@4x.png">wmui/accets/images/black/x48/settings@4x.png</file>
+        <file alias="accets/images/black/x48/subway.png">wmui/accets/images/black/x48/subway.png</file>
+        <file alias="accets/images/black/x48/subway@2x.png">wmui/accets/images/black/x48/subway@2x.png</file>
+        <file alias="accets/images/black/x48/subway@3x.png">wmui/accets/images/black/x48/subway@3x.png</file>
+        <file alias="accets/images/black/x48/subway@4x.png">wmui/accets/images/black/x48/subway@4x.png</file>
+        <file alias="accets/images/black/x48/truck.png">wmui/accets/images/black/x48/truck.png</file>
+        <file alias="accets/images/black/x48/truck@2x.png">wmui/accets/images/black/x48/truck@2x.png</file>
+        <file alias="accets/images/black/x48/truck@3x.png">wmui/accets/images/black/x48/truck@3x.png</file>
+        <file alias="accets/images/black/x48/truck@4x.png">wmui/accets/images/black/x48/truck@4x.png</file>
+        <file>wmui/accets/images/white/bus.png</file>
+        <file>wmui/accets/images/white/bus@2x.png</file>
+        <file>wmui/accets/images/white/bus@3x.png</file>
+        <file>wmui/accets/images/white/bus@4x.png</file>
+        <file>wmui/accets/images/white/car.png</file>
+        <file>wmui/accets/images/white/car@2x.png</file>
+        <file>wmui/accets/images/white/car@3x.png</file>
+        <file>wmui/accets/images/white/car@4x.png</file>
+        <file>wmui/accets/images/white/flight.png</file>
+        <file>wmui/accets/images/white/flight@2x.png</file>
+        <file>wmui/accets/images/white/flight@3x.png</file>
+        <file>wmui/accets/images/white/flight@4x.png</file>
+        <file>wmui/accets/images/white/settings.png</file>
+        <file>wmui/accets/images/white/settings@2x.png</file>
+        <file>wmui/accets/images/white/settings@3x.png</file>
+        <file>wmui/accets/images/white/settings@4x.png</file>
+        <file>wmui/accets/images/white/subway.png</file>
+        <file>wmui/accets/images/white/subway@2x.png</file>
+        <file>wmui/accets/images/white/subway@3x.png</file>
+        <file>wmui/accets/images/white/subway@4x.png</file>
+        <file>wmui/accets/images/white/truck.png</file>
+        <file>wmui/accets/images/white/truck@2x.png</file>
+        <file>wmui/accets/images/white/truck@3x.png</file>
+        <file>wmui/accets/images/white/truck@4x.png</file>
+        <file>wmui/accets/images/white/x18/bus.png</file>
+        <file>wmui/accets/images/white/x18/bus@2x.png</file>
+        <file>wmui/accets/images/white/x18/bus@3x.png</file>
+        <file>wmui/accets/images/white/x18/bus@4x.png</file>
+        <file>wmui/accets/images/white/x18/car.png</file>
+        <file>wmui/accets/images/white/x18/car@2x.png</file>
+        <file>wmui/accets/images/white/x18/car@3x.png</file>
+        <file>wmui/accets/images/white/x18/car@4x.png</file>
+        <file>wmui/accets/images/white/x18/flight.png</file>
+        <file>wmui/accets/images/white/x18/flight@2x.png</file>
+        <file>wmui/accets/images/white/x18/flight@3x.png</file>
+        <file>wmui/accets/images/white/x18/flight@4x.png</file>
+        <file>wmui/accets/images/white/x18/settings.png</file>
+        <file>wmui/accets/images/white/x18/settings@2x.png</file>
+        <file>wmui/accets/images/white/x18/settings@3x.png</file>
+        <file>wmui/accets/images/white/x18/settings@4x.png</file>
+        <file>wmui/accets/images/white/x18/subway.png</file>
+        <file>wmui/accets/images/white/x18/subway@2x.png</file>
+        <file>wmui/accets/images/white/x18/subway@3x.png</file>
+        <file>wmui/accets/images/white/x18/subway@4x.png</file>
+        <file>wmui/accets/images/white/x18/truck.png</file>
+        <file>wmui/accets/images/white/x18/truck@2x.png</file>
+        <file>wmui/accets/images/white/x18/truck@3x.png</file>
+        <file>wmui/accets/images/white/x18/truck@4x.png</file>
+        <file>wmui/accets/images/white/x36/bus.png</file>
+        <file>wmui/accets/images/white/x36/bus@2x.png</file>
+        <file>wmui/accets/images/white/x36/bus@3x.png</file>
+        <file>wmui/accets/images/white/x36/bus@4x.png</file>
+        <file>wmui/accets/images/white/x36/car.png</file>
+        <file>wmui/accets/images/white/x36/car@2x.png</file>
+        <file>wmui/accets/images/white/x36/car@3x.png</file>
+        <file>wmui/accets/images/white/x36/car@4x.png</file>
+        <file>wmui/accets/images/white/x36/flight.png</file>
+        <file>wmui/accets/images/white/x36/flight@2x.png</file>
+        <file>wmui/accets/images/white/x36/flight@3x.png</file>
+        <file>wmui/accets/images/white/x36/flight@4x.png</file>
+        <file>wmui/accets/images/white/x36/settings.png</file>
+        <file>wmui/accets/images/white/x36/settings@2x.png</file>
+        <file>wmui/accets/images/white/x36/settings@3x.png</file>
+        <file>wmui/accets/images/white/x36/settings@4x.png</file>
+        <file>wmui/accets/images/white/x36/subway.png</file>
+        <file>wmui/accets/images/white/x36/subway@2x.png</file>
+        <file>wmui/accets/images/white/x36/subway@3x.png</file>
+        <file>wmui/accets/images/white/x36/subway@4x.png</file>
+        <file>wmui/accets/images/white/x36/truck.png</file>
+        <file>wmui/accets/images/white/x36/truck@2x.png</file>
+        <file>wmui/accets/images/white/x36/truck@3x.png</file>
+        <file>wmui/accets/images/white/x36/truck@4x.png</file>
+        <file>wmui/accets/images/white/x48/bus.png</file>
+        <file>wmui/accets/images/white/x48/bus@2x.png</file>
+        <file>wmui/accets/images/white/x48/bus@3x.png</file>
+        <file>wmui/accets/images/white/x48/bus@4x.png</file>
+        <file>wmui/accets/images/white/x48/car.png</file>
+        <file>wmui/accets/images/white/x48/car@2x.png</file>
+        <file>wmui/accets/images/white/x48/car@3x.png</file>
+        <file>wmui/accets/images/white/x48/car@4x.png</file>
+        <file>wmui/accets/images/white/x48/flight.png</file>
+        <file>wmui/accets/images/white/x48/flight@2x.png</file>
+        <file>wmui/accets/images/white/x48/flight@3x.png</file>
+        <file>wmui/accets/images/white/x48/flight@4x.png</file>
+        <file>wmui/accets/images/white/x48/settings.png</file>
+        <file>wmui/accets/images/white/x48/settings@2x.png</file>
+        <file>wmui/accets/images/white/x48/settings@3x.png</file>
+        <file>wmui/accets/images/white/x48/settings@4x.png</file>
+        <file>wmui/accets/images/white/x48/subway.png</file>
+        <file>wmui/accets/images/white/x48/subway@2x.png</file>
+        <file>wmui/accets/images/white/x48/subway@3x.png</file>
+        <file>wmui/accets/images/white/x48/subway@4x.png</file>
+        <file>wmui/accets/images/white/x48/truck.png</file>
+        <file>wmui/accets/images/white/x48/truck@2x.png</file>
+        <file>wmui/accets/images/white/x48/truck@3x.png</file>
+        <file>wmui/accets/images/white/x48/truck@4x.png</file>
+        <file alias="accets/images/black/colors.png">wmui/accets/images/black/colors.png</file>
+        <file>wmui/accets/images/black/colors@2x.png</file>
+        <file>wmui/accets/images/black/colors@3x.png</file>
+        <file>wmui/accets/images/black/colors@4x.png</file>
+        <file>wmui/accets/images/black/stars.png</file>
+        <file>wmui/accets/images/black/stars@2x.png</file>
+        <file>wmui/accets/images/black/stars@3x.png</file>
+        <file>wmui/accets/images/black/stars@4x.png</file>
+        <file>wmui/accets/images/black/x18/colors.png</file>
+        <file>wmui/accets/images/black/x18/colors@2x.png</file>
+        <file>wmui/accets/images/black/x18/colors@3x.png</file>
+        <file>wmui/accets/images/black/x18/colors@4x.png</file>
+        <file>wmui/accets/images/black/x18/stars.png</file>
+        <file>wmui/accets/images/black/x18/stars@2x.png</file>
+        <file>wmui/accets/images/black/x18/stars@3x.png</file>
+        <file>wmui/accets/images/black/x18/stars@4x.png</file>
+        <file>wmui/accets/images/black/x36/colors.png</file>
+        <file>wmui/accets/images/black/x36/colors@2x.png</file>
+        <file>wmui/accets/images/black/x36/colors@3x.png</file>
+        <file>wmui/accets/images/black/x36/colors@4x.png</file>
+        <file>wmui/accets/images/black/x36/stars.png</file>
+        <file>wmui/accets/images/black/x36/stars@2x.png</file>
+        <file>wmui/accets/images/black/x36/stars@3x.png</file>
+        <file>wmui/accets/images/black/x36/stars@4x.png</file>
+        <file>wmui/accets/images/black/x48/colors.png</file>
+        <file alias="accets/images/black/x48/colors@2x.png">wmui/accets/images/black/x48/colors@2x.png</file>
+        <file alias="accets/images/black/x48/colors@3x.png">wmui/accets/images/black/x48/colors@3x.png</file>
+        <file alias="accets/images/black/x48/colors@4x.png">wmui/accets/images/black/x48/colors@4x.png</file>
+        <file alias="accets/images/black/x48/stars.png">wmui/accets/images/black/x48/stars.png</file>
+        <file alias="accets/images/black/x48/stars@2x.png">wmui/accets/images/black/x48/stars@2x.png</file>
+        <file alias="accets/images/black/x48/stars@3x.png">wmui/accets/images/black/x48/stars@3x.png</file>
+        <file alias="accets/images/black/x48/stars@4x.png">wmui/accets/images/black/x48/stars@4x.png</file>
+        <file alias="accets/images/white/colors.png">wmui/accets/images/white/colors.png</file>
+        <file alias="accets/images/white/colors@2x.png">wmui/accets/images/white/colors@2x.png</file>
+        <file alias="accets/images/white/colors@3x.png">wmui/accets/images/white/colors@3x.png</file>
+        <file alias="accets/images/white/colors@4x.png">wmui/accets/images/white/colors@4x.png</file>
+        <file alias="accets/images/white/stars.png">wmui/accets/images/white/stars.png</file>
+        <file alias="accets/images/white/stars@2x.png">wmui/accets/images/white/stars@2x.png</file>
+        <file alias="accets/images/white/stars@3x.png">wmui/accets/images/white/stars@3x.png</file>
+        <file alias="accets/images/white/stars@4x.png">wmui/accets/images/white/stars@4x.png</file>
+        <file alias="accets/images/white/x18/colors.png">wmui/accets/images/white/x18/colors.png</file>
+        <file alias="accets/images/white/x18/colors@2x.png">wmui/accets/images/white/x18/colors@2x.png</file>
+        <file alias="accets/images/white/x18/colors@3x.png">wmui/accets/images/white/x18/colors@3x.png</file>
+        <file alias="accets/images/white/x18/colors@4x.png">wmui/accets/images/white/x18/colors@4x.png</file>
+        <file alias="accets/images/white/x18/stars.png">wmui/accets/images/white/x18/stars.png</file>
+        <file alias="accets/images/white/x18/stars@2x.png">wmui/accets/images/white/x18/stars@2x.png</file>
+        <file alias="accets/images/white/x18/stars@3x.png">wmui/accets/images/white/x18/stars@3x.png</file>
+        <file alias="accets/images/white/x18/stars@4x.png">wmui/accets/images/white/x18/stars@4x.png</file>
+        <file alias="accets/images/white/x36/colors.png">wmui/accets/images/white/x36/colors.png</file>
+        <file alias="accets/images/white/x36/colors@2x.png">wmui/accets/images/white/x36/colors@2x.png</file>
+        <file alias="accets/images/white/x36/colors@3x.png">wmui/accets/images/white/x36/colors@3x.png</file>
+        <file alias="accets/images/white/x36/colors@4x.png">wmui/accets/images/white/x36/colors@4x.png</file>
+        <file alias="accets/images/white/x36/stars.png">wmui/accets/images/white/x36/stars.png</file>
+        <file alias="accets/images/white/x36/stars@2x.png">wmui/accets/images/white/x36/stars@2x.png</file>
+        <file alias="accets/images/white/x36/stars@3x.png">wmui/accets/images/white/x36/stars@3x.png</file>
+        <file alias="accets/images/white/x36/stars@4x.png">wmui/accets/images/white/x36/stars@4x.png</file>
+        <file alias="accets/images/white/x48/colors.png">wmui/accets/images/white/x48/colors.png</file>
+        <file alias="accets/images/white/x48/colors@2x.png">wmui/accets/images/white/x48/colors@2x.png</file>
+        <file alias="accets/images/white/x48/colors@3x.png">wmui/accets/images/white/x48/colors@3x.png</file>
+        <file alias="accets/images/white/x48/colors@4x.png">wmui/accets/images/white/x48/colors@4x.png</file>
+        <file alias="accets/images/white/x48/stars.png">wmui/accets/images/white/x48/stars.png</file>
+        <file alias="accets/images/white/x48/stars@2x.png">wmui/accets/images/white/x48/stars@2x.png</file>
+        <file alias="accets/images/white/x48/stars@3x.png">wmui/accets/images/white/x48/stars@3x.png</file>
+        <file alias="accets/images/white/x48/stars@4x.png">wmui/accets/images/white/x48/stars@4x.png</file>
+        <file alias="accets/images/black/menu.png">wmui/accets/images/black/menu.png</file>
+        <file alias="accets/images/black/menu@2x.png">wmui/accets/images/black/menu@2x.png</file>
+        <file alias="accets/images/black/menu@3x.png">wmui/accets/images/black/menu@3x.png</file>
+        <file alias="accets/images/black/menu@4x.png">wmui/accets/images/black/menu@4x.png</file>
+        <file alias="accets/images/black/x18/menu.png">wmui/accets/images/black/x18/menu.png</file>
+        <file alias="accets/images/black/x18/menu@2x.png">wmui/accets/images/black/x18/menu@2x.png</file>
+        <file alias="accets/images/black/x18/menu@3x.png">wmui/accets/images/black/x18/menu@3x.png</file>
+        <file alias="accets/images/black/x18/menu@4x.png">wmui/accets/images/black/x18/menu@4x.png</file>
+        <file alias="accets/images/black/x36/menu.png">wmui/accets/images/black/x36/menu.png</file>
+        <file alias="accets/images/black/x36/menu@2x.png">wmui/accets/images/black/x36/menu@2x.png</file>
+        <file alias="accets/images/black/x36/menu@3x.png">wmui/accets/images/black/x36/menu@3x.png</file>
+        <file alias="accets/images/black/x36/menu@4x.png">wmui/accets/images/black/x36/menu@4x.png</file>
+        <file alias="accets/images/black/x48/menu.png">wmui/accets/images/black/x48/menu.png</file>
+        <file alias="accets/images/black/x48/menu@2x.png">wmui/accets/images/black/x48/menu@2x.png</file>
+        <file alias="accets/images/black/x48/menu@3x.png">wmui/accets/images/black/x48/menu@3x.png</file>
+        <file alias="accets/images/black/x48/menu@4x.png">wmui/accets/images/black/x48/menu@4x.png</file>
+        <file alias="accets/images/white/menu.png">wmui/accets/images/white/menu.png</file>
+        <file alias="accets/images/white/menu@2x.png">wmui/accets/images/white/menu@2x.png</file>
+        <file alias="accets/images/white/menu@3x.png">wmui/accets/images/white/menu@3x.png</file>
+        <file alias="accets/images/white/menu@4x.png">wmui/accets/images/white/menu@4x.png</file>
+        <file alias="accets/images/white/x18/menu.png">wmui/accets/images/white/x18/menu.png</file>
+        <file alias="accets/images/white/x18/menu@2x.png">wmui/accets/images/white/x18/menu@2x.png</file>
+        <file alias="accets/images/white/x18/menu@3x.png">wmui/accets/images/white/x18/menu@3x.png</file>
+        <file alias="accets/images/white/x18/menu@4x.png">wmui/accets/images/white/x18/menu@4x.png</file>
+        <file alias="accets/images/white/x36/menu.png">wmui/accets/images/white/x36/menu.png</file>
+        <file alias="accets/images/white/x36/menu@2x.png">wmui/accets/images/white/x36/menu@2x.png</file>
+        <file alias="accets/images/white/x36/menu@3x.png">wmui/accets/images/white/x36/menu@3x.png</file>
+        <file alias="accets/images/white/x36/menu@4x.png">wmui/accets/images/white/x36/menu@4x.png</file>
+        <file alias="accets/images/white/x48/menu.png">wmui/accets/images/white/x48/menu.png</file>
+        <file alias="accets/images/white/x48/menu@2x.png">wmui/accets/images/white/x48/menu@2x.png</file>
+        <file alias="accets/images/white/x48/menu@3x.png">wmui/accets/images/white/x48/menu@3x.png</file>
+        <file alias="accets/images/white/x48/menu@4x.png">wmui/accets/images/white/x48/menu@4x.png</file>
+        <file alias="accets/images/black/add.png">wmui/accets/images/black/add.png</file>
+        <file alias="accets/images/black/add@2x.png">wmui/accets/images/black/add@2x.png</file>
+        <file alias="accets/images/black/add@3x.png">wmui/accets/images/black/add@3x.png</file>
+        <file alias="accets/images/black/add@4x.png">wmui/accets/images/black/add@4x.png</file>
+        <file alias="accets/images/black/remove.png">wmui/accets/images/black/remove.png</file>
+        <file alias="accets/images/black/remove@2x.png">wmui/accets/images/black/remove@2x.png</file>
+        <file alias="accets/images/black/remove@3x.png">wmui/accets/images/black/remove@3x.png</file>
+        <file alias="accets/images/black/remove@4x.png">wmui/accets/images/black/remove@4x.png</file>
+        <file alias="accets/images/black/x18/add.png">wmui/accets/images/black/x18/add.png</file>
+        <file alias="accets/images/black/x18/add@2x.png">wmui/accets/images/black/x18/add@2x.png</file>
+        <file alias="accets/images/black/x18/add@3x.png">wmui/accets/images/black/x18/add@3x.png</file>
+        <file alias="accets/images/black/x18/add@4x.png">wmui/accets/images/black/x18/add@4x.png</file>
+        <file alias="accets/images/black/x18/remove.png">wmui/accets/images/black/x18/remove.png</file>
+        <file alias="accets/images/black/x18/remove@2x.png">wmui/accets/images/black/x18/remove@2x.png</file>
+        <file alias="accets/images/black/x18/remove@3x.png">wmui/accets/images/black/x18/remove@3x.png</file>
+        <file alias="accets/images/black/x18/remove@4x.png">wmui/accets/images/black/x18/remove@4x.png</file>
+        <file alias="accets/images/black/x36/add.png">wmui/accets/images/black/x36/add.png</file>
+        <file alias="accets/images/black/x36/add@2x.png">wmui/accets/images/black/x36/add@2x.png</file>
+        <file alias="accets/images/black/x36/add@3x.png">wmui/accets/images/black/x36/add@3x.png</file>
+        <file alias="accets/images/black/x36/add@4x.png">wmui/accets/images/black/x36/add@4x.png</file>
+        <file alias="accets/images/black/x36/remove.png">wmui/accets/images/black/x36/remove.png</file>
+        <file alias="accets/images/black/x36/remove@2x.png">wmui/accets/images/black/x36/remove@2x.png</file>
+        <file alias="accets/images/black/x36/remove@3x.png">wmui/accets/images/black/x36/remove@3x.png</file>
+        <file alias="accets/images/black/x36/remove@4x.png">wmui/accets/images/black/x36/remove@4x.png</file>
+        <file alias="accets/images/black/x48/add.png">wmui/accets/images/black/x48/add.png</file>
+        <file alias="accets/images/black/x48/add@2x.png">wmui/accets/images/black/x48/add@2x.png</file>
+        <file alias="accets/images/black/x48/add@3x.png">wmui/accets/images/black/x48/add@3x.png</file>
+        <file alias="accets/images/black/x48/add@4x.png">wmui/accets/images/black/x48/add@4x.png</file>
+        <file alias="accets/images/black/x48/remove.png">wmui/accets/images/black/x48/remove.png</file>
+        <file alias="accets/images/black/x48/remove@2x.png">wmui/accets/images/black/x48/remove@2x.png</file>
+        <file alias="accets/images/black/x48/remove@3x.png">wmui/accets/images/black/x48/remove@3x.png</file>
+        <file alias="accets/images/black/x48/remove@4x.png">wmui/accets/images/black/x48/remove@4x.png</file>
+        <file alias="accets/images/white/add.png">wmui/accets/images/white/add.png</file>
+        <file alias="accets/images/white/add@2x.png">wmui/accets/images/white/add@2x.png</file>
+        <file alias="accets/images/white/add@3x.png">wmui/accets/images/white/add@3x.png</file>
+        <file alias="accets/images/white/add@4x.png">wmui/accets/images/white/add@4x.png</file>
+        <file alias="accets/images/white/remove.png">wmui/accets/images/white/remove.png</file>
+        <file alias="accets/images/white/remove@2x.png">wmui/accets/images/white/remove@2x.png</file>
+        <file alias="accets/images/white/remove@3x.png">wmui/accets/images/white/remove@3x.png</file>
+        <file alias="accets/images/white/remove@4x.png">wmui/accets/images/white/remove@4x.png</file>
+        <file alias="accets/images/white/x18/add.png">wmui/accets/images/white/x18/add.png</file>
+        <file alias="accets/images/white/x18/add@2x.png">wmui/accets/images/white/x18/add@2x.png</file>
+        <file alias="accets/images/white/x18/add@3x.png">wmui/accets/images/white/x18/add@3x.png</file>
+        <file alias="accets/images/white/x18/add@4x.png">wmui/accets/images/white/x18/add@4x.png</file>
+        <file alias="accets/images/white/x18/remove.png">wmui/accets/images/white/x18/remove.png</file>
+        <file alias="accets/images/white/x18/remove@2x.png">wmui/accets/images/white/x18/remove@2x.png</file>
+        <file alias="accets/images/white/x18/remove@3x.png">wmui/accets/images/white/x18/remove@3x.png</file>
+        <file alias="accets/images/white/x18/remove@4x.png">wmui/accets/images/white/x18/remove@4x.png</file>
+        <file alias="accets/images/white/x36/add.png">wmui/accets/images/white/x36/add.png</file>
+        <file alias="accets/images/white/x36/add@2x.png">wmui/accets/images/white/x36/add@2x.png</file>
+        <file alias="accets/images/white/x36/add@3x.png">wmui/accets/images/white/x36/add@3x.png</file>
+        <file alias="accets/images/white/x36/add@4x.png">wmui/accets/images/white/x36/add@4x.png</file>
+        <file alias="accets/images/white/x36/remove.png">wmui/accets/images/white/x36/remove.png</file>
+        <file alias="accets/images/white/x36/remove@2x.png">wmui/accets/images/white/x36/remove@2x.png</file>
+        <file alias="accets/images/white/x36/remove@3x.png">wmui/accets/images/white/x36/remove@3x.png</file>
+        <file alias="accets/images/white/x36/remove@4x.png">wmui/accets/images/white/x36/remove@4x.png</file>
+        <file alias="accets/images/white/x48/add.png">wmui/accets/images/white/x48/add.png</file>
+        <file alias="accets/images/white/x48/add@2x.png">wmui/accets/images/white/x48/add@2x.png</file>
+        <file alias="accets/images/white/x48/add@3x.png">wmui/accets/images/white/x48/add@3x.png</file>
+        <file alias="accets/images/white/x48/add@4x.png">wmui/accets/images/white/x48/add@4x.png</file>
+        <file alias="accets/images/white/x48/remove.png">wmui/accets/images/white/x48/remove.png</file>
+        <file alias="accets/images/white/x48/remove@2x.png">wmui/accets/images/white/x48/remove@2x.png</file>
+        <file alias="accets/images/white/x48/remove@3x.png">wmui/accets/images/white/x48/remove@3x.png</file>
+        <file alias="accets/images/white/x48/remove@4x.png">wmui/accets/images/white/x48/remove@4x.png</file>
+        <file alias="accets/images/extra/qt-arrow.png">wmui/accets/images/extra/qt-arrow.png</file>
+        <file alias="accets/images/extra/qt-arrow@2x.png">wmui/accets/images/extra/qt-arrow@2x.png</file>
+        <file alias="accets/images/extra/qt-arrow@3x.png">wmui/accets/images/extra/qt-arrow@3x.png</file>
+        <file alias="accets/images/extra/qt-arrow@4x.png">wmui/accets/images/extra/qt-arrow@4x.png</file>
+        <file alias="accets/images/extra/qt-logo.png">wmui/accets/images/extra/qt-logo.png</file>
+        <file alias="accets/images/extra/qt-logo@2x.png">wmui/accets/images/extra/qt-logo@2x.png</file>
+        <file alias="accets/images/extra/qt-logo@3x.png">wmui/accets/images/extra/qt-logo@3x.png</file>
+        <file alias="accets/images/extra/qt-logo@4x.png">wmui/accets/images/extra/qt-logo@4x.png</file>
+    </qresource>
+</RCC>
